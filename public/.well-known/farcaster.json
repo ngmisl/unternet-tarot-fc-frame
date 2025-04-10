@@ -1,0 +1,17 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjE3OTQwLCJ0eXBlIjoiY3VzdG9keSIsImtleSI6IjB4ZTkwNDcxNWIzZjYzQjRmYkJiQ0FlMGZiODk5NmYyNTBENzlENDcwYSJ9",
+    "payload": "eyJkb21haW4iOiJ0YXJvdC5vcmJpdGVyLndlYnNpdGUifQ",
+    "signature": "MHgyOTEwNTE5YzFjOTdiOTk0YTI2N2UzMmQwYTRkNGY4ZWVhM2RlMGIzODNmOWMyMDgyYjMwMWU2MTIzZDQ3NjhlNjEyYjlmZDM5NjEyMGFhZjVmNTY5MWY4NDc5NTk5OGZmYTJhNzhhMzYyZDllY2QyODhlN2JlOTgyZDk3MTUzMTFi"
+  },
+  "frame": {
+    "version": "1",
+    "name": "Unternet Tarot",
+    "iconUrl": "https://tarot.orbiter.website/icon.png",
+    "homeUrl": "https://tarot.orbiter.website",
+    "imageUrl": "https://tarot.orbiter.website/image.png",
+    "buttonTitle": "Unternet Applet Tarot",
+    "splashImageUrl": "https://tarot.orbiter.website/splash.png",
+    "splashBackgroundColor": "#eeccff"
+  }
+}

@@ -1,0 +1,5 @@
+1. use bun
+2. use vite
+3. use typescript
+4. use zod
+5. use import { applets } from '@web-applets/sdk';

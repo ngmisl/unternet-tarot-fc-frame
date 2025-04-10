@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Relaxed CSP to allow script execution -->
+    <meta http-equiv="Content-Security-Policy-Report-Only" content="default-src 'self' https://tarotapi.dev; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://tarotapi.dev;">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    
+    <!-- Farcaster Frame Meta Tags -->
+    <meta property="og:title" content="Tarot Card Reader" />
+    <meta property="og:description" content="Draw a tarot card to reveal your fortune" />
+    <meta property="og:image" content="https://tarot.orbiter.website/image.png" />
+    <meta name="fc:frame" content='{"version":"vNext","image":"https://tarot.orbiter.website/image.png","buttons":[{"label":"Draw a Card"}],"action":"https://tarot.orbiter.website"}' />
+    
+    <!-- Use proper relative paths -->
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      html,
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        font-family: system-ui;
+      }
+    </style>
+    <title>Tarot Card Reading</title>
+    <!-- Keep as main.ts for build process - Vite will handle transpilation -->
+    <script type="module" src="./main.ts" defer></script>
+  </head>
+  <body>
+    <div class="tarot-main">
+      <h1>Waiting for your cool fortune...</h1>
+      <button id="draw-card" class="draw-button">Draw a Card</button>
+    </div>
+  </body>
+</html>
