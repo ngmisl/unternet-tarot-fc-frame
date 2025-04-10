@@ -1,3 +1,5 @@
+[![CodeQL](https://github.com/ngmisl/unternet-tarot-fc-frame/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/ngmisl/unternet-tarot-fc-frame/actions/workflows/github-code-scanning/codeql)
+
 # Tarot Card Reader - Farcaster Frame
 
 A modern tarot card reading app built with TypeScript that works both as a standalone web application and as a Farcaster Frame. Draw cards from the deck to reveal your fortune!
