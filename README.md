@@ -4,6 +4,8 @@
 
 A modern tarot card reading app built with TypeScript that works both as a standalone web application and as a Farcaster Frame. Draw cards from the deck to reveal your fortune!
 
+> **Note:** This project is forked from [Unternet Applets](https://github.com/unternet-co/applets/tree/main) with numerous enhancements including Zod validation, improved TypeScript safety, and Farcaster Frame integration.
+
 ## Features
 
 - **Random Tarot Card Drawing**: Fetch random cards from a tarot deck API
@@ -11,6 +13,16 @@ A modern tarot card reading app built with TypeScript that works both as a stand
 - **Mobile Responsive**: Optimized for both desktop and mobile devices
 - **Fast Performance**: Built with Vite and Bun for optimal speed
 - **Farcaster Frame Integration**: Share and interact with this app directly in Farcaster
+
+## Enhancements Over Original
+
+This fork includes several improvements to the original Unternet applet:
+
+- **Added Zod Validation**: Robust schema validation for API responses
+- **Improved Type Safety**: Better TypeScript types and interfaces
+- **Mobile Responsiveness**: Enhanced UI for better mobile experience
+- **Farcaster Integration**: Added support for Farcaster Frames
+- **Build System**: Migrated to Vite and Bun for better performance
 
 ## Tech Stack
 
@@ -66,4 +78,4 @@ MIT
 
 ---
 
-Made with for the Unternet
+Made with <3 for the Unternet
