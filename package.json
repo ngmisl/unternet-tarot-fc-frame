@@ -5,7 +5,7 @@
     "preview": "bun run vite preview"
   },
   "dependencies": {
-    "@farcaster/frame-sdk": "^0.0.34",
+    "@farcaster/frame-sdk": "^0.0.63",
     "@web-applets/sdk": "^0.2.5",
     "zod": "^3.24.2"
   },
